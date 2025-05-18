@@ -51,14 +51,6 @@ require("lazy").setup({
     },
   },
 })
-require("tokyonight").setup({
-  transparent = true,
-  styles = {
-    sidebars = "transparent",
-    floats = "transparent",
-  },
-})
-vim.cmd.colorscheme("tokyonight") -- Or your preferred flavor
 
 -- The setup config table shows all available config options with their default values:
 require("neocord").setup({
